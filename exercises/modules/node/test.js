@@ -1,6 +1,8 @@
-const data = require('./data')
-const api = require('./api')
-const app = require('./app')
+
+import data from './data';
+import api from './api';
+import app from './app';
+
 
 describe('data', () => {
   test('users',  () => {
