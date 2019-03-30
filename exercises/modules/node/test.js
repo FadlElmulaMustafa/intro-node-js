@@ -1,7 +1,7 @@
 
 import data from './data';
-import api from './api';
-import app from './app';
+import { getUserById, getPostsForUser} from './api';
+import { showPostsForCurrentUser, showUserProfile} from './app';
 
 
 describe('data', () => {
