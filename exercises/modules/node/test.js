@@ -1,8 +1,7 @@
 
-import data from './data';
-import api from './api';
-import app from './app';
-
+import data from './data'
+import api from './api'
+import app from './app'
 
 describe('data', () => {
   test('users',  () => {
