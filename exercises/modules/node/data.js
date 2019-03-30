@@ -1,4 +1,5 @@
-const data = {
+  
+  export default {
     users: [
       {id: 1, name: 'Weezy'}
     ],
@@ -7,7 +8,4 @@ const data = {
       {title: 'Me', body: 'Look at my selfie', createdBy: 1},
       {title: 'My doggy', body: 'my dog is better than yours', createdBy: 1}
     ]
-  }
-  
-
-  export default data;
+};
