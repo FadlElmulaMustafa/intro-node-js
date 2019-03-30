@@ -1,7 +1,8 @@
+ data = require('./data')
+ api = require('./api')
+ app = require('./app')
 
-import data from './data'
-import api from './api'
-import app from './app'
+
 
 describe('data', () => {
   test('users',  () => {

@@ -1,5 +1,5 @@
 
-import data from './data';
+data = require('./data')
 
 getUserById = (id, cb ) => {
     const user = data.users.find(user => user.id === id);
@@ -12,4 +12,4 @@ getPostsForUser = (userId, cb ) => {
     }, 150 );
 }
 
-export default { getUserById, getPostsForUser};
+module.exports = { getUserById, getPostsForUser};
